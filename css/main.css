@@ -1,6 +1,6 @@
 @font-face {
     font-family:valorant;
-    src: url("/fonts/valorant/Valorant\ Font.ttf") format("truetype");    
+    src: url("fonts/valorant/Valorant\ Font.ttf") format("truetype");    
 }
 
 body{
@@ -15,7 +15,7 @@ body{
 
 .playbook-links {
     background-color: rgb(88, 88, 88);
-    background-image: url("images/maps/bind.webp");
+    background-image: url("https://static.wikia.nocookie.net/valorant/images/2/23/Loading_Screen_Bind.png/revision/latest?cb=20200620202316");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
