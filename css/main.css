@@ -1,0 +1,47 @@
+@font-face {
+    font-family:valorant;
+    src: url("/fonts/valorant/Valorant\ Font.ttf") format("truetype");    
+}
+
+body{
+    background-color: rgb(43, 41, 41);
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.playbook-links {
+    background-color: red;
+    background-image: url("/images/maps/bind.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5%;
+    aspect-ratio: 3/4;
+    margin: 1rem;
+    height: 40rem;
+    width: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+}
+
+.playbook-links h2 {
+    font-family: valorant  ;
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+}
+
+.playbook-links p {
+    font-size: 2rem;
+    color: white
+
+}
