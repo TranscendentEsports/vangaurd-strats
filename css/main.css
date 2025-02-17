@@ -14,7 +14,7 @@ body{
 }
 
 .playbook-links {
-    background-color: red;
+    background-color: rgb(88, 88, 88);
     background-image: url("/images/maps/bind.webp");
     background-repeat: no-repeat;
     background-size: cover;
